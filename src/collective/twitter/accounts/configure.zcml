@@ -34,4 +34,10 @@
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
+  <utility
+      name="twitter.accounts"
+      factory=".vocabularies.AccountsVocabulary"
+      provides="zope.schema.interfaces.IVocabularyFactory"
+      />
+
 </configure>
