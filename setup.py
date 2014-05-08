@@ -38,6 +38,7 @@ setup(name='collective.twitter.accounts',
       zip_safe=False,
       install_requires=[
         'setuptools',
+        'oauth2', 
         'python-twitter',
         'plone.app.registry',
         ],

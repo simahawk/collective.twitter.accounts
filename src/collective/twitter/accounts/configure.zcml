@@ -12,7 +12,7 @@
 
   <genericsetup:registerProfile
       name="default"
-      title="collective.twitter.accounts"
+      title="Twitter accounts - default"
       directory="profiles/default"
       description="Installs the collective.twitter.accounts package"
       provides="Products.GenericSetup.interfaces.EXTENSION"
@@ -20,7 +20,7 @@
 
   <genericsetup:registerProfile
       name="initial"
-      title="collective.twitter.accounts"
+      title="Twitter accounts - initial"
       directory="profiles/initial"
       description="Installs the collective.twitter.accounts package (Initial setup)"
       provides="Products.GenericSetup.interfaces.EXTENSION"
@@ -28,7 +28,7 @@
 
   <genericsetup:registerProfile
       name="uninstall"
-      title="collective.twitter.accounts"
+      title="Twitter accounts - uninstall"
       directory="profiles/uninstall"
       description="Uninstall profile for the collective.twitter.accounts package"
       provides="Products.GenericSetup.interfaces.EXTENSION"
